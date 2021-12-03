@@ -1,0 +1,154 @@
+@media screen and (min-width: 1024px) and (orientation: landscape){
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(9, auto);
+    grid-template-areas: 
+    "div_header_area  	div_header_area     div_header_area"
+    "div_nav_area		div_nav_area		div_nav_area"
+	"div_content_description_title_area div_content_description_title_area div_content_description_title_area"
+	"div_content_description_text_area div_content_description_text_area div_content_description_text_area"
+	"div_content_crew_title_area div_content_crew_title_area div_content_crew_title_area"
+    "div_content_crew_presentation_doctor1_area div_content_crew_presentation_doctor2_area div_content_crew_presentation_doctor3_area"
+	"div_content_courses_title_area div_content_courses_title_area div_content_courses_title_area"
+    "div_content_courses_course1_area div_content_courses_course2_area div_content_courses_course3_area"
+    "div_footer_map_area div_footer_contact_area div_footer_contact_area";
+}
+	.header{
+		grid-area:div_header_area;
+	}
+		.header_image{
+			
+		}
+		.header_text{
+			
+		}
+	.nav{
+		grid-area:div_nav_area;
+	}
+		.nav_link{
+			
+		}
+	.content{
+		
+	}
+		.content_description{
+			
+		}
+			.content_description_title{
+				grid-area:div_content_description_title_area;
+			}
+			.content_description_text{
+				grid-area:div_content_description_text_area;
+			}
+		.content_crew{
+			
+		}
+			.content_crew_title{
+				grid-area:div_content_crew_title_area;
+			}
+			.content_crew_presentation{
+				
+			}
+				.content_crew_presentation_doctor1{
+					grid-area:div_content_crew_presentation_doctor1_area;
+				}
+					.content_crew_presentation_doctor1_image{
+						width:160px;
+						height:240px;	
+					}
+					.content_crew_presentation_doctor1_name{
+						
+					}
+					.content_crew_presentation_doctor1_description{
+						
+					}
+				.content_crew_presentation_doctor2{
+					grid-area:div_content_crew_presentation_doctor2_area;
+				}
+					.content_crew_presentation_doctor2_image{
+						width:160px;
+						height:240px;	
+					}
+					.content_crew_presentation_doctor2_name{
+						
+					}
+					.content_crew_presentation_doctor2_description{
+						
+					}
+				.content_crew_presentation_doctor3{
+					grid-area:div_content_crew_presentation_doctor3_area;
+				}
+					.content_crew_presentation_doctor3_image{
+						width:160px;
+						height:240px;	
+					}
+					.content_crew_presentation_doctor3_name{
+						
+					}
+					.content_crew_presentation_doctor3_description{
+						
+					}
+			.content_courses{
+				
+			}
+				.content_courses_title{
+					grid-area:div_content_courses_title_area;
+				}
+				.content_courses_presentation{
+					
+				}
+					.content_courses_course1{
+						grid-area:div_content_courses_course1_area;
+					}
+						.content_courses_course1_image{
+							
+						}
+						.content_courses_course1_name{
+							
+						}
+						.content_courses_course1_description{
+							
+						}
+					.content_courses_course2{
+						grid-area:div_content_courses_course2_area;
+					}
+						.content_courses_course2_image{
+							
+						}
+						.content_courses_course2_name{
+							
+						}
+						.content_courses_course2_description{
+							
+						}
+					.content_courses_course3{
+						grid-area:div_content_courses_course3_area;
+					}
+						.content_courses_course3_image{
+							
+						}
+						.content_courses_course3_name{
+							
+						}
+						.content_courses_course3_description{
+							
+						}
+	.footer{
+		background-color:green;
+	}
+		.footer_map{
+			grid-area:div_footer_map_area;
+		}
+			.footer_map_image{
+				width:100px;
+				height:100px;
+			}
+		.footer_contact{
+			grid-area:div_footer_contact_area;
+		}
+}
